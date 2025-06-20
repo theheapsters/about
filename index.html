@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Heapsters - Grupo de Desenvolvimento</title>
+  <link rel="icon" href="img/logo/logo.jpg" type="image/jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">the heapsters</a>
+        </div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="membros.html">Membros</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content animate">
+          <h1>Nós somos <span class="highlight">the heapsters</span></h1>
+          <p>Grupo de projetos de programação fundado em 2024. Começamos com um projeto de extensão em Java e hoje desenvolvemos soluções colaborativas e inovadoras para o universo acadêmico. Nosso foco é aprendizado, criatividade e trabalho em equipe.</p>
+          <div class="hero-buttons">
+            <a href="projetos.html" class="btn btn-primary">Ver projetos</a>
+            <a href="membros.html" class="btn btn-secondary">Conheça o time</a>
+          </div>
+        </div>
+        <div class="hero-code animate">
+          <pre><code><span class="keyword">const</span> <span class="function">theHeapsters</span> = {
+  core: <span class="string">"< dev + learn + share />"</span>,
+  location: {
+    country: <span class="string">"Brazil"</span>,
+    state: <span class="string">"Pará"</span>,
+    city: <span class="string">"Belém"</span>
+  },
+  apps: <span class="array">["duck", "calop"]</span>,
+  year: <span class="number">2024</span>
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-projects">
+      <div class="container">
+        <h2 class="animate">Projetos em destaque</h2>
+        <div class="projects-grid">
+          <a href="duckmanager.html" class="project-card animate delay-1">
+            <div class="project-content">
+              <h3>Duck Manager</h3>
+              <p>Sistema desktop completo para gestão de pedidos e produtos.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Java</span>
+              </div>
+              <span class="read-more">Ver detalhes <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </a>
+          <a href="calop-agender.html" class="project-card animate delay-2">
+            <div class="project-content">
+              <h3>Calop Agender</h3>
+              <p>Aplicativo mobile para agendamentos.</p>
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Expo</span>
+              </div>
+              <span class="read-more">Ver detalhes <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2 class="animate">Conheça mais sobre nossos projetos</h2>
+        <p class="animate delay-1">Quer saber mais sobre nós? Acesse nosso repositório no GitHub e fique por dentro dos nossos projetos e inovações.</p>
+        <a href="https://github.com/theheapsters" target="_blank" class="btn btn-primary animate delay-2">
+          <i class="fab fa-github"></i> Visitar GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <p>the heapsters</p>
+          <span>© 2025 The Heapsters. Todos os direitos reservados.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
